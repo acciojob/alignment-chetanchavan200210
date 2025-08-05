@@ -1,16 +1,80 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>HTML Assignment #3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Title Table -->
+    <table border="1" width="90%" align="center">
+        <caption><b>HTML Assignment #3</b></caption>
+        <tr>
+            <td>left</td>
+            <td align="center">center</td>
+            <td align="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td align="center">center</td>
+            <td align="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td align="center">center</td>
+            <td align="right">right</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Nested Table -->
+    <table border="1" width="90%" align="center">
+        <tr>
+            <td rowspan="3"></td>
+            <td colspan="3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Image Table -->
+    <table border="1" width="90%" align="center">
+        <tr class="green-row">
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">
+                <a href="https://www.tallengestore.com/products/michael-jordan-dunk-basketball-greats" target="_blank">
+                    <img src="https://www.tallengestore.com/cdn/shop/products/Michael_Jordan_Dunk_-_Basketball_Greats_-_Spirit_Of_Sports_640c7299-9016-4f92-9ef3-40851c7cc5d9.jpg?v=1570154753" width="300px" alt="Michael Jordan Dunk">
+                </a>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blue-row">
+            <td colspan="3"></td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
